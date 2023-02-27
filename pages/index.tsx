@@ -16,7 +16,7 @@ export default function Home() {
         postId: 123,
         ref: 'social'
       }
-    })
+    }) 
   }
 
   return (

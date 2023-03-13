@@ -23,7 +23,7 @@ export const getStaticPaths = async (
 ) => {
   const reponse = await fetch('https://js-post-api.herokuapp.com/api/posts?_page=1')
   const { data } = await reponse.json()
-  
+
   return {
     paths: data.map((post) => ({ params: { postId: post.id } })),
     fallback: false,

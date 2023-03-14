@@ -1,4 +1,5 @@
 // import Header from '@/components/common/header';
+import { MainLayout } from '@/components/layout';
 import dynamic from 'next/dynamic';
 import * as React from 'react';
 
